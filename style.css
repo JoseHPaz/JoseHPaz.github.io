@@ -1,0 +1,426 @@
+*{
+    background: #f8f8fa;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+}
+
+.logo
+{
+    width: 40px;
+    position: absolute;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+main
+{
+    width: 1280px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.content
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+                             /* T E X T O */
+
+.textArea
+{
+    padding-top: 30px;
+    width: 60%;
+    height: 60%;
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #0a3871; font-size: 25px;}
+    textArea:focus
+    {
+        outline: none;
+    }
+
+.mensaje
+{
+    width: auto;
+    height: 400px;
+    background: #FFFFFF;
+    background-image: url("images/Muneco.png");
+    background-repeat: no-repeat;
+    border: none;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 160px;
+    padding: 20px;
+    position: absolute;
+}
+
+#mensaje:focus
+{
+    outline: none;
+}
+
+                                /* B O T  N E S */
+
+.botones
+{
+    display: flex;
+    margin-top: 18px;
+
+}
+
+.btnEnc
+{
+    background-color: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btnEnc:hover
+{
+    border: 3px solid black;
+    transform: scale(1.05); 
+}
+
+.btnDesenc
+{
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btnDesenc:hover
+{
+    border: 3px solid black;
+    transform: scale(1.05); 
+}
+
+.copiar
+{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 450px;
+    position: absolute;
+    width: 300px;
+}
+
+.copiar:hover
+{
+
+    transform: scale(1.10);
+    border: 3px solid black;
+}
+
+.informacion
+{
+    color: #495057;
+    font-size: 18px;
+}
+
+
+
+                                          /* F O O T E R */
+
+footer
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.social
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 18px;
+
+}
+
+.githublogo
+{
+    width: 50px;
+    margin-left: 30px;
+
+}
+
+.linkedinlogo
+{
+    width: 50px;
+    margin-left: 30px;
+}
+
+.copyright
+{
+    margin-top: 15px;
+}
+
+
+                                            /* DISPOSIVOS MOVILES */
+
+@media screen and (max-width:1200px)
+{
+    *{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    }
+
+    body
+    {
+        width: 100%;
+    }
+
+    .header
+    {
+        height: 10%;
+    }
+
+    .logo
+    {
+        width:5%;
+    }
+
+    main
+    {
+        width: auto;
+       
+    }
+
+    .content
+    {
+        width: 80%;
+        margin-left: auto;
+        display: grid;
+    }
+
+    .textArea
+    {
+        padding-top: none;
+        width: 80%;
+        height: 30%;
+        align-items:center ;
+    }
+
+    .copyLink
+    {
+        display: block;
+    }
+
+    .mensaje
+    {
+        width: 80%;
+        height: 20%;
+        background-image: none;
+        margin-left: auto;
+        margin-top: auto;
+        position: static;
+    }
+    
+    .botones
+    {
+        width: auto;
+        margin-left: auto;
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .btnEnc
+    {
+        height: 67px;
+        margin-left: none;
+        width: 30%;
+    }
+    
+    .btnDesenc
+    {
+        height: 67px;
+        margin-left: 10%;
+        width: 30%;
+    }
+    
+    .copiar
+    {
+        height: 67px;
+        width: 30%;
+        height: 67px;
+        margin-left: 25%;
+        margin-top: 20px;
+        position: static;
+        width: 30%;
+    }
+    
+    .copiar:hover
+    {
+    
+        transform: scale(1.10); 
+    }
+    
+    .informacion
+    {
+        color: #495057;
+        font-size: 18px;
+    }
+    
+                                   /* FOOTER MOVILES */
+    
+    footer
+    {
+        text-align: center;
+        padding: 20px;
+        height: 10%;
+    }
+    
+    .social
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 18px;
+    
+    }
+    
+    .githublogo
+    {
+        width: 50px;
+        margin-left: 30px;
+    
+    }
+    
+    .linkedinlogo
+    {
+        width: 50px;
+        margin-left: 30px;
+    }
+    
+    .copyright
+    {
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width:900px)
+{
+    *{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+    }
+
+
+
+    .botones
+    {
+        display: grid;
+        margin-top: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        
+    
+    }
+
+    .btnEnc
+    {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+        height: 50px;
+
+
+    }
+
+    .btnDesenc
+    {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+        height: 50px;
+
+    }
+
+    .copyLink
+    {
+        width: 80%;
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+
+
+    .mensaje
+    {
+        height: 200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .copiar
+    {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 50px;
+    }
+
+
+    footer
+    {
+        margin-top: 15px;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    
+    .githublogo
+    {
+        width: 40px;
+        margin-left: 20px;
+    
+    }
+    
+    .linkedinlogo
+    {
+        width: 40px;
+        margin-left: 20px;
+    }
+    
+    .copyright
+    {
+        margin-top: 15px;
+    }
+}

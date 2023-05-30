@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+    
+</head>
+
+<body>
+
+<header class="header">
+    <a href="https://www.aluracursos.com/"><img src="images/Vector.png" alt="Logo de alura" class="logo"></a>
+</header>
+
+<main>
+
+<section class="content">
+    <section>
+        <textarea class="textArea" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+    
+        <div>
+            <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+        </div>
+    
+        <div class="botones">
+            <button class="btnEnc" onclick="btnEnc()">Encriptar</button>
+            <button class="btnDesenc" onclick="btnDesenc()">Desencriptar</button>
+        </div>
+    
+    </section>
+    
+    <section>
+        
+        <div class="copyLink">
+            <textarea class="mensaje" name="" cols="20" rows="10"></textarea>
+     
+            <button class="copiar" onclick="copy()">Copiar</button>
+         
+        </div>
+        
+    
+    </section>
+</section>
+
+<script src="script.js"></script>
+
+</main>
+    
+</body>
+
+<footer>
+
+    <div class="social">
+        <a href="https://github.com/JoseHPaz"><img src="images/githublogo.png" alt="" class="githublogo"></a>
+        <a href="https://www.linkedin.com/in/jose-h-paz/"><img src="images/linkedinlogo.png" alt="" class="linkedinlogo"></a>
+    </div>
+    
+    <p class="copyright">&copy; By José Hernández - 2023</p>
+</footer>
+
+
+</html>
